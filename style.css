@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f8d045;
+}
+
+label{
+    display: block;
+}
