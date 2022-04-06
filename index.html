@@ -9,6 +9,73 @@
 <div class="container">
     <div class="content">
         <h1> Pizzeria</h1>
+        <form>
+            <div class="row">
+                <div>
+                    <label for="FirstName">First Name</label>
+                    <input id="FirstName" name="First_Name" type="text">
+                </div>
+                <div>
+                    <label for="LastName">Last Name</label>
+                    <input id="LastName" name="Last_Name" type="text">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" id="Pick-up" name="delivery">
+                    <label for="Pick-up">Pick-up</label>
+                </div>
+                <div>
+                    <input type="radio" id="To-Go" name="delivery">
+                    <label for="To-Go">To-Go</label>
+                </div>
+                <div>
+                    <input type="radio" id="Dine-In" name="delivery">
+                    <label for="Dine-In">Dine-In</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <input type="radio" id="small" name="size">
+                    <label for="small">Small</label>
+                </div>
+                <div>
+                    <input type="radio" id="medium" name="size">
+                    <label for="medium">Medium</label>
+                </div>
+                <div>
+                    <input type="radio" id="large" name="size">
+                    <label for="large">Large</label>
+                </div>
+                <div>
+                    <label for="container">Ammount of pizza's</label>
+                    <select name="container" id="containe">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Toppings">Toppings</label>
+                    <textarea id="Toppings" name="Toppings" rows="4" cols="10" placeholder="What kind of toppings would you like?"></textarea>
+                </div>
+                <div>
+                    <label for="container">Any Dips?</label>
+                    <select name="container" id="container">
+                        <option value="Ranch">Ranch</option>
+                        <option value="BBQ">BBQ</option>
+                        <option value="Marinara">Marinara</option>
+                        <option value="No Dip">No Dip</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Drinks">Drinks</label>
+                    <textarea id="Drinks" name="Drinks" rows="4" cols="10" placeholder="Any Drinks? If no please say no."></textarea>
+                </div>
+            </div>
+        </form>
     </div>
 </div>
 </body>
